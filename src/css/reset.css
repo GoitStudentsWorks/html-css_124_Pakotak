@@ -25,6 +25,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  background-color: #e0cbb4;
 }
 
 ul,
@@ -43,4 +44,5 @@ button {
 a {
   text-decoration: none;
   color: inherit;
+  font-style: normal;
 }
