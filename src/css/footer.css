@@ -69,7 +69,26 @@
   line-height: var(--lh-normal);
   color: var(--color-scheme-1-text);
 }
+.footer-list-item:hover,
+.footer-list-item:focus {
+  color: var(--color-coffee-dark);
+}
+.footer-list-item:active {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-neutral-darkest);
+}
 
+.social-icon:hover,
+.social-icon:focus {
+  fill: var(--color-coffee-dark);
+  transform: scale(1.1);
+}
+.footer-logo-icon:hover {
+  transform: scale(1.1);
+}
 /* Tablet */
 @media only screen and (min-width: 768px) {
   .footer-container {
