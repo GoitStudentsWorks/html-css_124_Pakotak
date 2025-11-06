@@ -14,7 +14,6 @@
 .location-info {
   display: flex;
   flex-direction: column;
-  gap: 16px;
 }
 
 .location-label {
@@ -23,7 +22,7 @@
   font-size: 16px;
   line-height: 150%;
   color: var(--color-scheme-1-text);
-  margin: 0;
+  margin: 0 0 16px 0;
 }
 
 .location-title {
@@ -32,7 +31,7 @@
   font-weight: var(--fw-regular);
   line-height: var(--lh-tight);
   color: var(--color-scheme-1-text);
-  margin: 0;
+  margin: 0 0 24px 0;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -50,7 +49,7 @@
 .location-contacts {
   list-style: none;
   padding: 0;
-  margin: 24px 0 0 0;
+  margin: 40px 0 0 0;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -164,10 +163,6 @@
 
 /* Adaptive styles for 375px+ */
 @media screen and (min-width: 375px) {
-  .location {
-    padding: 64px 0;
-  }
-
   .location-content {
     gap: 40px;
   }
@@ -179,15 +174,6 @@
 
 /* Tablet (768px+) */
 @media screen and (min-width: 768px) {
-  .location {
-    padding: 64px 0;
-  }
-
-  .location-content {
-    flex-direction: column;
-    gap: 32px;
-  }
-
   .location-contacts {
     flex-direction: row;
     justify-content: space-between;
@@ -202,10 +188,6 @@
 
 /* Desktop (1440px+) */
 @media screen and (min-width: 1440px) {
-  .location {
-    padding: 64px 0;
-  }
-
   .location-content {
     flex-direction: row;
     gap: 24px;
