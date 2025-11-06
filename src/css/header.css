@@ -46,6 +46,11 @@
 
 /* --- Планшетна версія --- */
 @media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
   a {
     text-decoration: none;
     color: #0b0803;
@@ -82,14 +87,6 @@
     font-style: Regular;
     font-size: 16px;
     line-height: 150%;
-  }
-}
-
-/* Tablet */
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
   }
 }
 
