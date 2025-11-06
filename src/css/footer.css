@@ -69,11 +69,11 @@
   line-height: var(--lh-normal);
   color: var(--color-scheme-1-text);
 }
-.footer-list-item:hover,
-.footer-list-item:focus {
+.footer-list-item:hover a,
+.footer-list-item:focus a {
   color: var(--color-coffee-dark);
 }
-.footer-list-item:active {
+.footer-list-item:active a {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
