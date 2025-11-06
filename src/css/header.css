@@ -1,0 +1,102 @@
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+    padding: 0 16px;
+  }
+
+  body {
+    background-color: #e0cbb4;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 72px;
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+
+  .iconLogo {
+    width: 84px;
+    height: 36px;
+  }
+
+  .iconBurger {
+    width: 24px;
+    height: 24px;
+  }
+
+  .header-menu-btn {
+    background-color: transparent;
+    border: none;
+    margin-left: auto;
+    padding: 0;
+  }
+
+  .navigation-links {
+    display: none;
+  }
+}
+
+/* --- Планшетна версія --- */
+@media screen and (min-width: 768px) {
+  a {
+    text-decoration: none;
+    color: #0b0803;
+  }
+
+  .header-box {
+    padding: 0px 64px;
+    display: flex;
+    align-items: center;
+  }
+
+  .header-menu-btn {
+    display: none;
+  }
+
+  .iconLogo {
+    width: 84px;
+    height: 36px;
+  }
+
+  .navigation-links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 32px;
+    width: 456px;
+    height: 24px;
+  }
+
+  .navigation-links .links-item {
+    font-family: Quicksand;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding: 18px 64px;
+  }
+}
