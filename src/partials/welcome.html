@@ -1,0 +1,63 @@
+<!---Welcome-->
+<section class="section-welcome">
+  <div class="container">
+    <!-- ряд з текстом -->
+    <div class="welcome-row">
+      <div class="welcome-col-left">
+        <p class="welcome-subtitle">Welcome</p>
+        <h2 class="welcome-title">Our Journey: Passion for Quality Coffee</h2>
+      </div>
+
+      <div class="welcome-col-right">
+        <p class="welcome-description">
+          At CoffeeJoy, we believe that every cup tells a story. Our mission is
+          to bring you the finest coffee experiences, crafted with care and
+          dedication. We are committed to sourcing high-quality beans and
+          roasting them to perfection, ensuring each sip is a delight.
+        </p>
+
+        <button class="btn-find-location" type="button">
+          <span>Find location</span>
+          <svg class="btn-welcome-icon" width="24" height="24">
+            <use href="/img/welcome/icons.svg#icon-map-pin"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- картинка нижче на всю ширину -->
+    <div class="welcome-image">
+      <picture>
+        <source
+          media="(max-width:767px)"
+          srcset="
+            /img/welcome/welcome_mob_1x.jpg   1x,
+            /img/welcome/welcome_mob@2x-2.jpg 2x
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            /img/welcome/welcome_tab_1x.jpg   1x,
+            /img/welcome/welcome_tab@2x-2.jpg 2x
+          "
+        />
+        <source
+          media="(min-width:1440px)"
+          srcset="
+            /img/welcome/welcome_desk_1x.jpg   1x,
+            /img/welcome/welcome_desk@2x-2.jpg 2x
+          "
+        />
+        <img
+          class="welcome-image"
+          src="/img/welcome/welcome_mob_1x.jpg"
+          alt="Barista pouring coffee"
+          width="288"
+          height="162"
+          loading="lazy"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
