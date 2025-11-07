@@ -1,0 +1,68 @@
+.subscribe-section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.subscribe-title {
+    font-family: "Aboreto", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: #0b0803;
+    width: 288px;
+    margin-bottom: 24px;
+}
+
+.subscribe-text {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #0b0803;
+    width: 288px;
+    margin-bottom: 32px;
+}
+
+.subscribe-input {
+    border-radius: 12px;
+    width: 288px;
+    height: 40px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0b0803;
+    border: 1px solid rgba(11, 8, 3, 0.15);
+    border-radius: 12px;
+    padding: 8px 12px;
+    outline: transparent;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 24px;
+}
+
+.subscribe-input::placeholder {
+    color: rgba(11, 8, 3, 0.6);
+}
+
+.subscribe-btn {
+    border-radius: 100px;
+    padding: 10px 24px;
+    min-width: 288px;
+    height: 44px;
+    box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05), inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15), inset 0 2px 1px 0 rgba(255, 255, 255, 0.25), inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
+    background-color: #6f4e37;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.agreement-text {
+font-family: "Quicksand", sans-serif;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.5;
+color: #0b0803;
+}

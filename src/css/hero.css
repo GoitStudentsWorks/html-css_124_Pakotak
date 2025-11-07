@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), image-set(url("/img/hero.jpg") 1x,
+            url("/img/hero@2x.jpg") 2x);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 108px 32px;
+    height: 644px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.hero-content {
+    max-width: 256px;
+    max-height: 427px;
+}
+
+.hero-title {
+    font-family: "Aboreto", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.hero-text {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.hero-button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 16px;
+    border-radius: 100px;
+    padding: 10px 24px;
+    height: 44px;
+    box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05), inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15), inset 0 2px 1px 0 rgba(255, 255, 255, 0.25), inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
+    background: #6f4e37;
+    cursor: pointer;
+}
+
+.hero-button-link {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .hero {
+        height: 900px;
+        padding: 312px 176px 312px 32px;
+    }
+
+    .hero-content {
+        max-width: 560px;
+        max-height: 277px;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    .hero {
+        padding: 0px 64px;
+        padding: 260px 816px 260px 32px;
+        max-width: 1700px;
+    }
+
+    .hero-content {
+        max-height: 382px;
+    }
+
+    .hero-title {
+        font-size: 56px;
+    }
+}
