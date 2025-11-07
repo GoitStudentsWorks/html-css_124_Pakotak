@@ -1,0 +1,116 @@
+.section-welcome {
+  padding: 64px 0;
+  background: #f8eee2;
+}
+.welcome-subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0b0803;
+}
+.welcome-title {
+  max-width: 288px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: #0b0803;
+}
+@media only screen and (min-width: 768px) {
+  .welcome-title {
+    max-width: 336px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .welcome-title {
+    max-width: 640px;
+    font-size: 48px;
+  }
+}
+.welcome-description {
+  width: 288px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #0b0803;
+}
+@media only screen and (min-width: 768px) {
+  .welcome-description {
+    width: 336px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .welcome-description {
+    width: 640px;
+  }
+}
+
+/* Кнопка */
+.btn-find-location {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 100px;
+  background: #6b4a2b;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15), inset 0 -2px 1px rgba(0, 0, 0, 0.2),
+    inset 0 0 0 1px rgba(0, 0, 0, 0.15),
+    inset 0 2px 1px rgba(255, 255, 255, 0.25),
+    inset 0 32px 24px rgba(255, 255, 255, 0.05);
+  border-color: transparent;
+}
+.btn-find-location:hover {
+  background: #8b5e34;
+}
+@media only screen and (min-width: 768px) {
+  .btn-find-location {
+    width: 181px;
+    height: 44px;
+    width: auto;
+    align-self: flex-start;
+  }
+}
+.btn-welcome-icon {
+  fill: #ffff;
+}
+
+.welcome-row {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+@media only screen and (min-width: 768px) {
+  .welcome-row {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
+  }
+}
+
+.welcome-col-left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.welcome-col-right {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+@media only screen and (min-width: 1440px) {
+  .welcome-col-right {
+    margin-bottom: 80px;
+  }
+}
+
+.welcome-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 40px;
+}
