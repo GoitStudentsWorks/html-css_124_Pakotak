@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media screen and (min-width: 375px) and (max-width: 767px) {
   a {
     text-decoration: none;
@@ -31,53 +32,74 @@
   .navigation-links {
     display: none;
   }
+=======
+/* MOBILE first */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+>>>>>>> 711c377 (header)
 }
 
-/* --- Планшетна версія --- */
+/* Лого */
+.header-logo-icon {
+  display: block;
+  width: 84px;
+  height: 36px;
+  fill: #0b0803;
+}
+
+/* Бургер */
+.header-menu-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Меню скрыто на mobile */
+.header-nav {
+  display: none;
+}
+
+/* Ссылки */
+.header-link {
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 150%;
+  color: #0b0803;
+  transition: color 0.3s ease;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--color-coffee-dark);
+}
+
+/* TABLET (≥768px) */
 @media screen and (min-width: 768px) {
-  a {
-    text-decoration: none;
-    color: #0b0803;
-  }
-
-  .header-box {
-    padding: 0px 64px;
-    display: flex;
-    align-items: center;
-  }
-
   .header-menu-btn {
     display: none;
   }
 
-  .iconLogo {
-    width: 84px;
-    height: 36px;
+  .header-nav {
+    display: block;
   }
 
-  .navigation-links {
+  .header-container {
+    padding: 0 64px;
+  }
+
+  .header-menu {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
     gap: 32px;
-    width: 456px;
-    height: 24px;
-  }
-
-  .navigation-links .links-item {
-    font-family: Quicksand;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 16px;
-    line-height: 150%;
   }
 }
 
-/* Desktop */
+/* DESKTOP (≥1440px) */
 @media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-    padding: 18px 64px;
+  .header-container {
+    padding: 0 64px; /* можно увеличить если нужно */
   }
 }
