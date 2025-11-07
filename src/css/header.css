@@ -42,28 +42,27 @@
 >>>>>>> 711c377 (header)
 }
 
-/* Лого */
+/* Logo */
 .header-logo-icon {
   display: block;
   width: 84px;
   height: 36px;
-  fill: #0b0803;
+  fill: var(--color-neutral-darkest);
 }
 
-/* Бургер */
+/* Burger */
 .header-menu-btn {
   background: none;
   border: none;
   padding: 0;
   cursor: pointer;
+  fill: var(--color-neutral-darkest);
 }
 
-/* Меню скрыто на mobile */
 .header-nav {
   display: none;
 }
 
-/* Ссылки */
 .header-link {
   font-family: var(--font-family);
   font-size: 16px;
@@ -100,6 +99,6 @@
 /* DESKTOP (≥1440px) */
 @media screen and (min-width: 1440px) {
   .header-container {
-    padding: 0 64px; /* можно увеличить если нужно */
+    padding: 0 64px;
   }
 }
