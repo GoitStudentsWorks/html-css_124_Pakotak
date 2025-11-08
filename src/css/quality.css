@@ -129,11 +129,13 @@
 
   .section-headline {
     font-size: 42px;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
+    max-width: 768px;
   }
 
   .section-description {
-    margin-bottom: 80px;
+    margin-bottom: 32px;
+    max-width: 768px;
   }
 
   .advantages-list {
@@ -141,10 +143,13 @@
     flex-wrap: nowrap;
     gap: 40px;
     align-items: start;
+    justify-content: center;
   }
 
   .advantages-list-item {
     flex: 1;
+    max-width: 422px;
+    min-width: 422px;
   }
 
   .advantages-list-item:nth-child(3) {
@@ -156,12 +161,14 @@
     max-width: 100%;
   }
 
-  .advantages-list-item:nth-child(3) .section-list-headline,
-  .advantages-list-item:nth-child(3) .list-paragraph {
+  .advantages-list-item:nth-child(3) .section-list-headline {
     max-width: 100%;
+    margin-top: 32px;
+    margin-bottom: 8px;
   }
 
-  .section-list-headline {
-    min-height: 85px;
+  .advantages-list-item:nth-child(3) .list-paragraph {
+    max-width: 100%;
+    margin-top: 0;
   }
 }
