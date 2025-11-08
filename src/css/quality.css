@@ -88,6 +88,10 @@
     max-width: 462px;
   }
 
+  .section-description {
+    max-width: inherit;
+  }
+
   .advantages-list {
     flex-direction: row;
     flex-wrap: wrap;
